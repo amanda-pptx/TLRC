@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+		<title>React Pad</title>
+		<link href="src/styles.css">
+  </head>
+  <body>
+    <div class="info">
+			Rider Information:
+			</br>
+				Age Group
+				<br>
+				<input type="radio" class="leadline" id="underage" name="radAnswer" onclick="Guardian()">Leadline (6 and under)</input>
+				<input type="radio" id="12under" id="underage" name="radAnswer" onclick="Guardian()">12 and under</input>
+				<input type="radio" id="1317" id="underage" name="radAnswer" onclick="Guardian()">13 - 17</input>
+				<br>
+				<input type="radio" id="18over" name="radAnswer">18 and over</input>
+				<input type="radio" id="35over" name="radAnswer">35 and over</input>
+				<input type="radio" id="green" name="radAnswer">First Year Green</input>
+
+				<br>
+				First Name<input type="text" id="fname"></input>
+				<br>
+				Last Name<input type="text" id="lname"></input>
+	
+    </div>
+    <div class="horse">
+      Horse<input type="text" id="hname"></input>
+		</div>
+		<hr>
+		<div class="guardian">
+			Parent First Name<input type="text" id="gfname"></input>
+			<br>
+			Parent Last Name<input type="text" id="glname"></input>
+		<hr>
+		</div>
+		
+    <div class="class">
+      <p> <i>select all that apply </i> </p>
+      <br>
+      <input type="checkbox">Poles 1</input>
+      <input type="checkbox">Single Stake</input>
+      <input type="checkbox">Speed Barrels</input>
+      <input type="checkbox">Keyhole</input>
+      <input type="checkbox">Cloverleaf Barrels</input>
+
+      <br>
+      <input type="submit"></input>
+      <br>
+      <p>By submitting this form you are agreeing to our 
+        <button id="agreement"><u>Release and Hold Harmless Agreement</u></button>
+      </p>
+    </div>
+    <div class="email">
+      Optional
+      <br>
+      
+	</body>
+	<script src="src/index.js"></script>
+</html>
+
