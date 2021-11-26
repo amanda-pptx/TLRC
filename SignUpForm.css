@@ -1,0 +1,33 @@
+body {
+  width:500px;
+  margin: auto;
+  border:2px solid black;
+  border-radius:20px;
+  background: linear-gradient(#fff 10%, #f1f1f1 98%, #ccc);
+  padding:0 20px 20px;
+}
+
+html {
+  background: #def;
+  margin: 10px auto;
+}
+
+
+div{
+  font-family: monospace;
+}
+
+.guardian{
+  display:none;
+}
+
+#underage{
+ display: inline-block;
+}
+
+#agreement {
+  border:none;
+  background:none;
+  font-family:monospace;
+  font-size:12px;
+}
